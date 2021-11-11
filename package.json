@@ -1,22 +1,22 @@
 {
-  "name": "todo-app-with-node-aws",
-  "version": "1.0.0",
-  "main": "app.js",
-  "repository": "https://github.com/rajdeepkhandelwal/Todo-app-with-node-aws.git",
-  "author": "Rajdeep Khandelwal <khandelwalrajdeep@gmail.com>",
-  "license": "MIT",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-    "dev": "nodemon app.js"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
-  },
-  "dependencies": {
-    "aws-sdk": "^2.1025.0",
-    "dotenv": "^10.0.0",
-    "fastify": "^3.23.1",
-    "fastify-swagger": "^4.12.6"
-  }
+    "name": "todo-app-with-node-aws",
+    "version": "1.0.0",
+    "main": "app.js",
+    "repository": "https://github.com/rajdeepkhandelwal/Todo-app-with-node-aws.git",
+    "author": "Rajdeep Khandelwal <khandelwalrajdeep@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    },
+    "dependencies": {
+        "aws-sdk": "^2.1025.0",
+        "dotenv": "^10.0.0",
+        "fastify": "^3.23.1",
+        "fastify-swagger": "^4.12.6"
+    }
 }
